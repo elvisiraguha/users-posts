@@ -1,0 +1,55 @@
+.users {
+  list-style: none;
+}
+
+.user-li {
+  list-style: none;
+  width: 80%;
+  padding: 10px 15px;
+  margin: 6px 0;
+}
+
+.user-li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-li.heading {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-li.content {
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.user-li.user-li.content button {
+  background-color: rgb(173, 184, 154);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+.user-li.user-li.content button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+li#hide-posts {
+  width: 30px;
+  padding: 5px 10px;
+  background-color: rgb(250, 224, 215);
+}
+
+li#hide-posts:hover {
+  cursor: pointer;
+}
